@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+html{
+    background-color: black;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+.logo{
+    height: auto;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+    margin-top: 20px;
+  }
+
+  .topnav a {
+  
+    display: inline-block;
+    color: goldenrod;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5em;
+  }
+
+  .topnav {
+  overflow: hidden;
+  border-bottom: solid 1px olivedrab;
+  text-align: center;
+  margin-top: 3vw;
+}
+
+.topnav a:hover {
+  background-color: olivedrab;
+  color: goldenrod;
+}
+
+.topnav a.active {
+    background-color: olivedrab;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .backgroundimg{
+      width: 100%;
+      height: 100%;
+      display: fixed
+      position: fixed;
+      z-index: -1000;
+      opacity: 0.5;
+      background-repeat: repeat-y;
+      
+  }
+
+.homebackg{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+    border: 1vw ridge rgba(35, 136, 22, 0.52);
+    border-radius: 30px;
+    padding-top: 3vw;
+}
+
+.maindiv{
+    text-align: center;
+    font-size: 1em;
+}
+
+footer{
+    color: gold;
+    text-align: center;
+    padding-bottom: 1%;
+    width: 100;
+    font-size: 1em;
+    margin: 0 auto;
+    border-top: 1px olivedrab solid;
+   }
+
+   input[type=text],textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid gold;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-size: 1rem;
+  }
+
+  input[type=password],textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid gold;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-size: 1rem;
+  }
+  
+   textarea{
+   font-size: 1.5rem
+   }
+
+  select{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid gold;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .glavnisub{
+      text-align: center;
+  }
+
+  .registerbut{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border-radius: 20px;
+      background-color: goldenrod;
+      padding: 1vw 1vw;
+      font-size: 1rem;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+  }
